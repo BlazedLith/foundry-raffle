@@ -31,7 +31,7 @@ jobs:
 
       - name: Run Forge build
         run: |
-          forge build --sizes --no-size-check
+          forge build
         id: build
 
       - name: Run Forge tests
